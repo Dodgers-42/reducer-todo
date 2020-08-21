@@ -32,7 +32,7 @@ export default function App() {
 
   return (
     <>
-    <h1>What Up!!!</h1>
+    <h1>Creating My ToDo List!!!</h1>
     <form onSubmit= {handleSubmit}>
       <input type="text" value={name} onChange={e => setName(e.target.value)} />  
     </form>
